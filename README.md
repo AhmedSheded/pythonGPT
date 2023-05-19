@@ -17,6 +17,7 @@ chatgpt = ChatGPT(api_key='your-api-key')
 
 # Making a request
 response = chatgpt.request("Hello, how are you?")
+print(response)
 
 # Submit multiple requests by txt file
 response = chatgpt.requests('file.txt')

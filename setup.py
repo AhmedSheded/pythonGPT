@@ -8,11 +8,11 @@ setuptools.setup(
     version = "1.0.0",
     author = "Ahmed Sheded",
     author_email = "sheded222@gmail.com",
-    description = "The ChatGPT Requests module is a Python package that provides a convenient interface for making requests to the ChatGPT language model. It abstracts away the complexity of interacting with the model's API, allowing developers to easily integrate ChatGPT into their applications.",
-    long_description = long_description,
+    description = "The ChatGPT Requests module is a Python package that provides a convenient interface for making requests to the ChatGPT language model.",
+    long_description=long_description,
     long_description_content_type = "text/markdown",
-    url = "package URL",
-    project_urls = {
+    url="package URL",
+    project_urls={
         "Bug Tracker": "package issues URL",
     },
     classifiers = [
@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir = {"": "src"},
-    packages = setuptools.find_packages(where="src"),
-    python_requires = ">=3.6"
+    packages=setuptools.find_packages(where="src"),
+    python_requires=">=3.6"
 )
 
