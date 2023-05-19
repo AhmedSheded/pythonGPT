@@ -1,6 +1,7 @@
 import os
 import requests
 import time
+import json
 
 
 class PythonGPT:
@@ -46,3 +47,33 @@ class PythonGPT:
             print(f'Question No.{i} has been answered')
             time.sleep(1)
         return 'See '+out_path+'!'
+
+    # def start(self, conversation_id=None):
+    #
+    #     # Create a payload with the initial message
+    #     if conversation_id == None:
+    #         payload = {
+    #             'messages': [{'role': 'system', 'content': 'You are starting a new conversation.'}]
+    #         }
+    #     else:
+    #         payload = {
+    #             'messages': [{'role': 'system', 'content': 'You are starting a new conversation.'}],
+    #             'conversation_id': conversation_id
+    #         }
+    #
+    #
+    #     # Set the headers including the API key
+    #     headers = {
+    #         'Content-Type': 'application/json',
+    #         'Authorization': f'Bearer {self.api_key}'
+    #     }
+    #
+    #     # Make the API request to start the conversation
+    #     response = requests.post(self.api_url, headers=headers, json=payload)
+    #
+    #     # Get the conversation ID from the response
+    #     conversation_id = response.json()['id']
+    #
+    #     # Print the response from the model
+    #     print(f'conversation_id= {conversation_id}\n'+response.json()['choices'][0]['message']['content'])
+
