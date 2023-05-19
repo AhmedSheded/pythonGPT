@@ -1,8 +1,14 @@
 # pythonGPT
 
-ChatGPT Requests Module
+pythonGPT Requests Module
 
-The ChatGPT Requests module is a Python package that provides a convenient interface for making requests to the ChatGPT language model. It abstracts away the complexity of interacting with the model's API, allowing developers to easily integrate ChatGPT into their applications.
+The pythonGPT Requests module is a Python package that provides a convenient interface for making requests to the ChatGPT language model. It abstracts away the complexity of interacting with the model's API, allowing developers to easily integrate ChatGPT into their applications.
+
+You can ask one question by request function, or you can send a file of questions separated by a question mark to requests function, and you will get a text file with the answers.
+
+
+you can have your APi key from this link after signing in
+https://platform.openai.com/account/api-keys
 
 Key Features:
 - Simple API: The module provides a high-level API that simplifies the process of sending messages and receiving responses from the ChatGPT model.

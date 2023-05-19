@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pythonGPT/__init__.py
+src/pythonGPT/pythonGPT.py
+src/pythonGPT3.egg-info/PKG-INFO
+src/pythonGPT3.egg-info/SOURCES.txt
+src/pythonGPT3.egg-info/dependency_links.txt
+src/pythonGPT3.egg-info/top_level.txt
